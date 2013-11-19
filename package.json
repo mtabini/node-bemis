@@ -1,0 +1,30 @@
+{
+  "name": "node-bemis",
+  "version": "0.1.0",
+  "description": "A simple transaction manager for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -t 2000 -R spec -u bdd --harmony $(find tests -name 'test_*.js')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mtabini/node-bemis.git"
+  },
+  "keywords": [
+    "transaction",
+    "commit",
+    "rollback"
+  ],
+  "author": "Marco Tabini <marcot@tabini.ca>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/mtabini/node-bemis/issues"
+  },
+  "dependencies": {
+    "async": "~0.2.9"
+  },
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "mocha": "~1.14.0"
+  }
+}
